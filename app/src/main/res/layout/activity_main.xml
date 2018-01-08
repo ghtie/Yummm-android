@@ -28,6 +28,6 @@
         android:layout_height="136dp"
         android:text="Swipe History"
         tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="337dp" />
+        tools:layout_editor_absoluteY="338dp" />
 
 </android.support.constraint.ConstraintLayout>
