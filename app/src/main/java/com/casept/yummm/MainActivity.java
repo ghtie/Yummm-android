@@ -15,8 +15,6 @@ public class MainActivity extends AppCompatActivity {
     @BindView(R.id.btnBuySwipe)
     Button btnBuySwipe;
 
-    //private Button btnBuySwipe;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,11 +25,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @OnClick(R.id.btnBuySwipe)
-    public void onClick(View view){
-        launchActivity();
+    public void onBuySwipeClick(View view){
+        launchVenueActivity();
     }
 
-    private void launchActivity() {
+    private void launchVenueActivity() {
 
         Intent intent = new Intent(this, VenueActivity.class);
         startActivity(intent);

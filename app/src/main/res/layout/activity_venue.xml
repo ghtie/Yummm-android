@@ -13,28 +13,28 @@
         android:layout_margin="15dp">
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/venue1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Restaurant 1"
             android:padding="10dp"/>
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/venue2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Restaurant 2"
             android:padding="10dp"/>
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/venue3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Restaurant 3"
             android:padding="10dp"/>
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/venue4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Restaurant 4"
