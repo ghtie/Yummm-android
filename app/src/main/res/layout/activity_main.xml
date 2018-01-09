@@ -13,19 +13,19 @@
         android:layout_margin="30dp">
 
         <Button
-            android:id="@+id/button6"
+            android:id="@+id/btnSwipeHist"
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:text="@string/swipe_history" />
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/btnTransferSwipe"
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:text="@string/transfer_swipe" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/btnBuySwipe"
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:text="@string/buy_swipe" />
