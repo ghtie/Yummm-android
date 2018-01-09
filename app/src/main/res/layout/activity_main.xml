@@ -6,28 +6,31 @@
     android:layout_height="match_parent"
     tools:context="com.casept.yummm.MainActivity">
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="260dp"
-        android:layout_height="120dp"
-        android:text="Buy Swipe"
-        tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="47dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="30dp">
 
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="260dp"
-        android:layout_height="120dp"
-        android:text="Transfer Swipe"
-        tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="195dp" />
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="@string/swipe_history" />
 
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="260dp"
-        android:layout_height="136dp"
-        android:text="Swipe History"
-        tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="338dp" />
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="@string/transfer_swipe" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="@string/buy_swipe" />
+    </LinearLayout>
+
+
 
 </android.support.constraint.ConstraintLayout>

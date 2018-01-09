@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Yummm</string>
+    <string name="swipe_history">Swipe History</string>
+    <string name="transfer_swipe">Transfer Swipe</string>
+    <string name="buy_swipe">Buy Swipe</string>
 </resources>
