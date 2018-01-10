@@ -7,14 +7,4 @@
     <string name="title_activity_venue">VenueActivity</string>
     <string name="back">Back</string>
 
-    <string-array name="Restaurants">
-        <item>The Den</item>
-        <item>L3 Grill</item>
-        <item>Naan</item>
-        <item>Melt U</item>
-        <item>Pinzas</item>
-        <item>Rough Rider</item>
-        <item>Jolly Scholar</item>
-
-    </string-array>
 </resources>

@@ -1,50 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/diningVenues">
+    tools:context="com.casept.yummm.VenueActivity">
 
-    <LinearLayout
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.casept.yummm.VenueFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:layout_margin="15dp">
+        tools:layout="@layout/venuelist_fragment"/>
 
-        <TextView
-            android:id="@+id/venue1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Restaurant 1"
-            android:padding="10dp"/>
 
-        <TextView
-            android:id="@+id/venue2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Restaurant 2"
-            android:padding="10dp"/>
-
-        <TextView
-            android:id="@+id/venue3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Restaurant 3"
-            android:padding="10dp"/>
-
-        <TextView
-            android:id="@+id/venue4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Restaurant 4"
-            android:padding="10dp"/>
-
-        <Button
-            android:id="@+id/btnBack"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/back" />
-
-    </LinearLayout>
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>
